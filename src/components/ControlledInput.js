@@ -9,7 +9,7 @@ export default class ControlledInput extends React.Component
   {
     return (<form>
      <input type="text"  value={this.state.value} 
-     onChange={(event) => this.setState({value:event.target.value})}/>
+     oonChange={this.handleChange} this.setState({value:event.target.value})}/>
     </form>)
   }
 }
